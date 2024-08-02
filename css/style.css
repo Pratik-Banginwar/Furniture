@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---------- Navbar ------------*/
+.navbar-top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.social-line i{
+    width: 25px;
+    height: 22px;
+    text-align: center;
+    margin-left: 15px;
+    font-size: 20px;
+    color: black;
+}
+.social-line i:hover{
+    background-color: rgba(238, 224, 208);
+    border-radius: 50px;
+}
+.logo h3{
+    font-weight: bold;
+}
+.icons i{
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.icons i:hover{
+    background-color: rgba(238, 224, 208);
+    border-radius: 50px;
+}
+
+/*---------- Main content ------------*/
+.main-content{
+    width: 100%;
+    height: 110vh;
+    background-image: url(../img/background-3.jpg);
+    background-size: cover;
+    background-position: 70%;
+}
+#navbar-color{
+    background-color: rgb(240, 221, 200);
+}
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    margin-left: 30px;
+    font-weight: 700;
+    color: black;
+}
+.content{
+    margin-top: 390px;
+    margin-left: 37%;
+
+    /* margin-top: 150px;
+    margin-left: 60px; */
+
+    /* z-index: 1;
+    background: hsl(400px, 40%, 10%, blue); */
+
+}
+.content h3{
+    font-size: 39px;
+    /* color: rgb(15, 15, 124); */
+    /* color: rgb(255, 255, 3); */
+    color: rgb(66, 65, 65);
+    /* color: rgb(230, 85, 41); */
+    /* color: rgb(37, 136, 37); */
+}
+.content h6{
+    /* color: rgb(15, 15, 124); */
+    font-size: 15px;
+    font-weight: bold;
+    /* color: rgb(236, 31, 31); */
+    color: blue;
+}
+.btn1 button{
+    width: 150px;
+    height: 35px;
+    background: rgb(252, 205, 213);
+    border: 2px solid black;
+    letter-spacing: 1px;
+    /* color: white; */
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn1 button:hover{
+    background-color: rgb(243, 212, 173);
+}
+
+/*---------- Card 1 ------------*/
+.btn2 button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn2 button:hover{
+    background-color: rgb(146, 128, 107);
+}
+
+/*---------- Card 2 ------------*/
+#tpc{
+    box-shadow: 0 0 5px black;
+}
+#tpc:hover{
+    transform: translateY(-10px);
+}
+.btn3 button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn3 button:hover{
+    background-color: rgb(146, 128, 107);
+}
+
+/*---------- Card 3 ------------*/
+#ca-rd p{
+    font-weight: bold;
+}
+.btn4{
+    text-align: center;
+}
+
+.btn4 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    /* color: white; */
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn4 button:hover{
+    background-color: rgb(146, 128, 107);
+}
+
+/*---------- About us ------------*/
+.btn5 button{
+    width: 150px;
+    height: 30px;
+    background: rgb(241, 171, 171);
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn5 button:hover{
+    background-color: rgb(126, 119, 111);
+}
+.abc{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease
+}
+.abc:hover{
+    transform: scale(1.1);
+}
+
+/*---------- footer ------------*/
+#footer{
+    width: 100%;
+    background-color: rgb(43, 42, 42);
+    margin-top: 70px;
+}
+#footer h2{
+    color: white;
+    padding-top: 30px;
+}
+#footer p{
+    color: white;
+    margin-top: 20px;
+}
+#footer .icons{
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    /* cursor: pointer; */
+}
+#footer .copyright{
+    color: white;
+    margin-top: 20px;
+}
+#footer .credit{
+    color: white;
+    margin-top: 20px;
+}
